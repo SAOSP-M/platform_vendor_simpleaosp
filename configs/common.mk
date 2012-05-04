@@ -55,3 +55,6 @@ PRODUCT_COPY_FILES +=  \
 # Bootanimation support
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/media/bootanimation.zip:system/media/bootanimation.zip
+
+# T-Mobile theme engine
+ include vendor/simpleaosp/configs/themes_common.mk
