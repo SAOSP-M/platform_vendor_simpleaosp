@@ -22,6 +22,13 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.facelock.use_intro_anim=false \
     ro.build.selinux=1
 
+# Telephony packages for only telephony devices
+ifneq ($(filter saosp_hammerhead saosp_mako saosp_shamu,$(TARGET_PRODUCT)),)
+# Thank you, please drive thru!
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.sys.dun.override=0
+endif
+
 # Common overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/simpleaosp/overlays/common
 
