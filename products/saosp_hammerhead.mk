@@ -5,7 +5,7 @@ $(call inherit-product, device/lge/hammerhead/full_hammerhead.mk)
 $(call inherit-product, vendor/simpleaosp/configs/common.mk)
 
 # Setup device specific product configuration
-PRODUCT_NAME := simpleaosp_hammerhead
+PRODUCT_NAME := saosp_hammerhead
 PRODUCT_BRAND := google
 PRODUCT_DEVICE := hammerhead
 PRODUCT_MODEL := Nexus 5
