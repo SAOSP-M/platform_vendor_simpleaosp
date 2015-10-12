@@ -20,7 +20,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.facelock.lively_timeout=2500 \
     ro.facelock.est_max_time=600 \
     ro.facelock.use_intro_anim=false \
-    ro.build.selinux=1
+    ro.build.selinux=1 \
+    ro.adb.secure=1
 
 # Telephony packages for only telephony devices
 ifneq ($(filter saosp_hammerhead saosp_mako saosp_shamu,$(TARGET_PRODUCT)),)
