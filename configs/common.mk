@@ -33,7 +33,9 @@ endif
 PRODUCT_PACKAGE_OVERLAYS += vendor/simpleaosp/overlays/common
 
 # Needed Packages
-PRODUCT_PACKAGES += Launcher3
+PRODUCT_PACKAGES += \
+Launcher3 \
+Busybox
 
 # Proprietary latinime lib needed for swyping
 PRODUCT_COPY_FILES += \
