@@ -35,8 +35,9 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/simpleaosp/overlays/common
 
 # Needed Packages
 PRODUCT_PACKAGES += \
+Busybox \
 Launcher3 \
-Busybox
+LockClock
 
 # Proprietary latinime lib needed for swyping
 PRODUCT_COPY_FILES += \
