@@ -52,6 +52,12 @@ PRODUCT_COPY_FILES +=  \
     $(LOCAL_PATH)/vendor/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
     $(LOCAL_PATH)/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd
 
+# Backup Tool
+ifneq ($(filter saosp_hammerhead saosp_mako saosp_shamu,$(TARGET_PRODUCT)),)
+PRODUCT_COPY_FILES +=  \
+    $(LOCAL_PATH)/addon.d/71-layers.sh:system/addon.d/71-layers.sh
+endif
+
 # Bootanimation support
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/media/bootanimation.zip:system/media/bootanimation.zip
