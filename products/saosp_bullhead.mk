@@ -12,4 +12,4 @@ PRODUCT_MODEL := Nexus 5X
 PRODUCT_MANUFACTURER := LGE
 
 # Build prop fingerprint overrides
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME="bullhead" BUILD_FINGERPRINT="google/bullhead/bullhead:6.0.1/MMB29Q/2480792:user/release-keys" PRIVATE_BUILD_DESC="bullhead-user 6.0.1 MMB29Q 2480792 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME="bullhead" BUILD_FINGERPRINT="google/bullhead/bullhead:6.0.1/MTC19V/2862947:user/release-keys" PRIVATE_BUILD_DESC="bullhead-user 6.0.1 MTC19V 2862947 release-keys"
